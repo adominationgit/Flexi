@@ -1,0 +1,657 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4702F970295B5E5900140D51 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4702F96F295B5E5900140D51 /* SettingsView.swift */; };
+		4763A44C295B6EDA00311B9E /* ExamDashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4763A44B295B6EDA00311B9E /* ExamDashView.swift */; };
+		4763A450295B80F400311B9E /* AssignmentDashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4763A44F295B80F400311B9E /* AssignmentDashView.swift */; };
+		4763A453295B837200311B9E /* AssignmentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4763A452295B837200311B9E /* AssignmentsView.swift */; };
+		4763A455295B83C900311B9E /* ExamsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4763A454295B83C900311B9E /* ExamsView.swift */; };
+		4763A457295B87E200311B9E /* ClassView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4763A456295B87E200311B9E /* ClassView1.swift */; };
+		4763A459295B8B2700311B9E /* ClassesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4763A458295B8B2700311B9E /* ClassesView.swift */; };
+		47E30D5B29560EC800DD9E9D /* FlexiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E30D5A29560EC800DD9E9D /* FlexiApp.swift */; };
+		47E30D5D29560EC800DD9E9D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E30D5C29560EC800DD9E9D /* ContentView.swift */; };
+		47E30D5F29560EC900DD9E9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47E30D5E29560EC900DD9E9D /* Assets.xcassets */; };
+		47E30D6229560EC900DD9E9D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47E30D6129560EC900DD9E9D /* Preview Assets.xcassets */; };
+		47E30D6429560EC900DD9E9D /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E30D6329560EC900DD9E9D /* Persistence.swift */; };
+		47E30D6729560EC900DD9E9D /* Flexi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 47E30D6529560EC900DD9E9D /* Flexi.xcdatamodeld */; };
+		47E30D7129560EC900DD9E9D /* FlexiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E30D7029560EC900DD9E9D /* FlexiTests.swift */; };
+		47E30D7B29560EC900DD9E9D /* FlexiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E30D7A29560EC900DD9E9D /* FlexiUITests.swift */; };
+		47E30D7D29560EC900DD9E9D /* FlexiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E30D7C29560EC900DD9E9D /* FlexiUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47E30D6D29560EC900DD9E9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47E30D4F29560EC800DD9E9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47E30D5629560EC800DD9E9D;
+			remoteInfo = Flexi;
+		};
+		47E30D7729560EC900DD9E9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47E30D4F29560EC800DD9E9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47E30D5629560EC800DD9E9D;
+			remoteInfo = Flexi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4702F96F295B5E5900140D51 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		4763A44B295B6EDA00311B9E /* ExamDashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamDashView.swift; sourceTree = "<group>"; };
+		4763A44F295B80F400311B9E /* AssignmentDashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentDashView.swift; sourceTree = "<group>"; };
+		4763A452295B837200311B9E /* AssignmentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentsView.swift; sourceTree = "<group>"; };
+		4763A454295B83C900311B9E /* ExamsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamsView.swift; sourceTree = "<group>"; };
+		4763A456295B87E200311B9E /* ClassView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassView1.swift; sourceTree = "<group>"; };
+		4763A458295B8B2700311B9E /* ClassesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassesView.swift; sourceTree = "<group>"; };
+		47E30D5729560EC800DD9E9D /* Flexi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flexi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47E30D5A29560EC800DD9E9D /* FlexiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexiApp.swift; sourceTree = "<group>"; };
+		47E30D5C29560EC800DD9E9D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		47E30D5E29560EC900DD9E9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47E30D6129560EC900DD9E9D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		47E30D6329560EC900DD9E9D /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		47E30D6629560EC900DD9E9D /* Flexi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Flexi.xcdatamodel; sourceTree = "<group>"; };
+		47E30D6C29560EC900DD9E9D /* FlexiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlexiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47E30D7029560EC900DD9E9D /* FlexiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexiTests.swift; sourceTree = "<group>"; };
+		47E30D7629560EC900DD9E9D /* FlexiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlexiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47E30D7A29560EC900DD9E9D /* FlexiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexiUITests.swift; sourceTree = "<group>"; };
+		47E30D7C29560EC900DD9E9D /* FlexiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47E30D5429560EC800DD9E9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47E30D6929560EC900DD9E9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47E30D7329560EC900DD9E9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4763A451295B811A00311B9E /* DashViews */ = {
+			isa = PBXGroup;
+			children = (
+				4763A44B295B6EDA00311B9E /* ExamDashView.swift */,
+				4763A44F295B80F400311B9E /* AssignmentDashView.swift */,
+				4763A456295B87E200311B9E /* ClassView1.swift */,
+			);
+			path = DashViews;
+			sourceTree = "<group>";
+		};
+		47E30D4E29560EC800DD9E9D = {
+			isa = PBXGroup;
+			children = (
+				47E30D5929560EC800DD9E9D /* Flexi */,
+				47E30D6F29560EC900DD9E9D /* FlexiTests */,
+				47E30D7929560EC900DD9E9D /* FlexiUITests */,
+				47E30D5829560EC800DD9E9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47E30D5829560EC800DD9E9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47E30D5729560EC800DD9E9D /* Flexi.app */,
+				47E30D6C29560EC900DD9E9D /* FlexiTests.xctest */,
+				47E30D7629560EC900DD9E9D /* FlexiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47E30D5929560EC800DD9E9D /* Flexi */ = {
+			isa = PBXGroup;
+			children = (
+				4763A451295B811A00311B9E /* DashViews */,
+				47E30D5A29560EC800DD9E9D /* FlexiApp.swift */,
+				47E30D5C29560EC800DD9E9D /* ContentView.swift */,
+				4763A458295B8B2700311B9E /* ClassesView.swift */,
+				4702F96F295B5E5900140D51 /* SettingsView.swift */,
+				4763A452295B837200311B9E /* AssignmentsView.swift */,
+				4763A454295B83C900311B9E /* ExamsView.swift */,
+				47E30D5E29560EC900DD9E9D /* Assets.xcassets */,
+				47E30D6329560EC900DD9E9D /* Persistence.swift */,
+				47E30D6529560EC900DD9E9D /* Flexi.xcdatamodeld */,
+				47E30D6029560EC900DD9E9D /* Preview Content */,
+			);
+			path = Flexi;
+			sourceTree = "<group>";
+		};
+		47E30D6029560EC900DD9E9D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				47E30D6129560EC900DD9E9D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		47E30D6F29560EC900DD9E9D /* FlexiTests */ = {
+			isa = PBXGroup;
+			children = (
+				47E30D7029560EC900DD9E9D /* FlexiTests.swift */,
+			);
+			path = FlexiTests;
+			sourceTree = "<group>";
+		};
+		47E30D7929560EC900DD9E9D /* FlexiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				47E30D7A29560EC900DD9E9D /* FlexiUITests.swift */,
+				47E30D7C29560EC900DD9E9D /* FlexiUITestsLaunchTests.swift */,
+			);
+			path = FlexiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47E30D5629560EC800DD9E9D /* Flexi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47E30D8029560EC900DD9E9D /* Build configuration list for PBXNativeTarget "Flexi" */;
+			buildPhases = (
+				47E30D5329560EC800DD9E9D /* Sources */,
+				47E30D5429560EC800DD9E9D /* Frameworks */,
+				47E30D5529560EC800DD9E9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Flexi;
+			productName = Flexi;
+			productReference = 47E30D5729560EC800DD9E9D /* Flexi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47E30D6B29560EC900DD9E9D /* FlexiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47E30D8329560EC900DD9E9D /* Build configuration list for PBXNativeTarget "FlexiTests" */;
+			buildPhases = (
+				47E30D6829560EC900DD9E9D /* Sources */,
+				47E30D6929560EC900DD9E9D /* Frameworks */,
+				47E30D6A29560EC900DD9E9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47E30D6E29560EC900DD9E9D /* PBXTargetDependency */,
+			);
+			name = FlexiTests;
+			productName = FlexiTests;
+			productReference = 47E30D6C29560EC900DD9E9D /* FlexiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		47E30D7529560EC900DD9E9D /* FlexiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47E30D8629560EC900DD9E9D /* Build configuration list for PBXNativeTarget "FlexiUITests" */;
+			buildPhases = (
+				47E30D7229560EC900DD9E9D /* Sources */,
+				47E30D7329560EC900DD9E9D /* Frameworks */,
+				47E30D7429560EC900DD9E9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47E30D7829560EC900DD9E9D /* PBXTargetDependency */,
+			);
+			name = FlexiUITests;
+			productName = FlexiUITests;
+			productReference = 47E30D7629560EC900DD9E9D /* FlexiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47E30D4F29560EC800DD9E9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					47E30D5629560EC800DD9E9D = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					47E30D6B29560EC900DD9E9D = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 47E30D5629560EC800DD9E9D;
+					};
+					47E30D7529560EC900DD9E9D = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 47E30D5629560EC800DD9E9D;
+					};
+				};
+			};
+			buildConfigurationList = 47E30D5229560EC800DD9E9D /* Build configuration list for PBXProject "Flexi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47E30D4E29560EC800DD9E9D;
+			productRefGroup = 47E30D5829560EC800DD9E9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47E30D5629560EC800DD9E9D /* Flexi */,
+				47E30D6B29560EC900DD9E9D /* FlexiTests */,
+				47E30D7529560EC900DD9E9D /* FlexiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47E30D5529560EC800DD9E9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47E30D6229560EC900DD9E9D /* Preview Assets.xcassets in Resources */,
+				47E30D5F29560EC900DD9E9D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47E30D6A29560EC900DD9E9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47E30D7429560EC900DD9E9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47E30D5329560EC800DD9E9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4763A450295B80F400311B9E /* AssignmentDashView.swift in Sources */,
+				4763A455295B83C900311B9E /* ExamsView.swift in Sources */,
+				4763A459295B8B2700311B9E /* ClassesView.swift in Sources */,
+				4702F970295B5E5900140D51 /* SettingsView.swift in Sources */,
+				4763A457295B87E200311B9E /* ClassView1.swift in Sources */,
+				47E30D6429560EC900DD9E9D /* Persistence.swift in Sources */,
+				47E30D5D29560EC800DD9E9D /* ContentView.swift in Sources */,
+				4763A44C295B6EDA00311B9E /* ExamDashView.swift in Sources */,
+				47E30D6729560EC900DD9E9D /* Flexi.xcdatamodeld in Sources */,
+				47E30D5B29560EC800DD9E9D /* FlexiApp.swift in Sources */,
+				4763A453295B837200311B9E /* AssignmentsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47E30D6829560EC900DD9E9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47E30D7129560EC900DD9E9D /* FlexiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47E30D7229560EC900DD9E9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47E30D7B29560EC900DD9E9D /* FlexiUITests.swift in Sources */,
+				47E30D7D29560EC900DD9E9D /* FlexiUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47E30D6E29560EC900DD9E9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47E30D5629560EC800DD9E9D /* Flexi */;
+			targetProxy = 47E30D6D29560EC900DD9E9D /* PBXContainerItemProxy */;
+		};
+		47E30D7829560EC900DD9E9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47E30D5629560EC800DD9E9D /* Flexi */;
+			targetProxy = 47E30D7729560EC900DD9E9D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		47E30D7E29560EC900DD9E9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		47E30D7F29560EC900DD9E9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47E30D8129560EC900DD9E9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Flexi/Preview Content\"";
+				DEVELOPMENT_TEAM = 5BGMUAPSKW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Flexi;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cinimodtech.Flexi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47E30D8229560EC900DD9E9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Flexi/Preview Content\"";
+				DEVELOPMENT_TEAM = 5BGMUAPSKW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Flexi;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cinimodtech.Flexi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		47E30D8429560EC900DD9E9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ADB6QJV8N5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cinimod.FlexiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flexi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Flexi";
+			};
+			name = Debug;
+		};
+		47E30D8529560EC900DD9E9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ADB6QJV8N5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cinimod.FlexiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flexi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Flexi";
+			};
+			name = Release;
+		};
+		47E30D8729560EC900DD9E9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ADB6QJV8N5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cinimod.FlexiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Flexi;
+			};
+			name = Debug;
+		};
+		47E30D8829560EC900DD9E9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ADB6QJV8N5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cinimod.FlexiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Flexi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47E30D5229560EC800DD9E9D /* Build configuration list for PBXProject "Flexi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47E30D7E29560EC900DD9E9D /* Debug */,
+				47E30D7F29560EC900DD9E9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47E30D8029560EC900DD9E9D /* Build configuration list for PBXNativeTarget "Flexi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47E30D8129560EC900DD9E9D /* Debug */,
+				47E30D8229560EC900DD9E9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47E30D8329560EC900DD9E9D /* Build configuration list for PBXNativeTarget "FlexiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47E30D8429560EC900DD9E9D /* Debug */,
+				47E30D8529560EC900DD9E9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47E30D8629560EC900DD9E9D /* Build configuration list for PBXNativeTarget "FlexiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47E30D8729560EC900DD9E9D /* Debug */,
+				47E30D8829560EC900DD9E9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		47E30D6529560EC900DD9E9D /* Flexi.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				47E30D6629560EC900DD9E9D /* Flexi.xcdatamodel */,
+			);
+			currentVersion = 47E30D6629560EC900DD9E9D /* Flexi.xcdatamodel */;
+			path = Flexi.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 47E30D4F29560EC800DD9E9D /* Project object */;
+}
