@@ -14,6 +14,8 @@
 		4763A455295B83C900311B9E /* ExamsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4763A454295B83C900311B9E /* ExamsView.swift */; };
 		4763A457295B87E200311B9E /* ClassView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4763A456295B87E200311B9E /* ClassView1.swift */; };
 		4763A459295B8B2700311B9E /* ClassesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4763A458295B8B2700311B9E /* ClassesView.swift */; };
+		477BA8C029623A8F00DA3640 /* AssignmentDueDateOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477BA8BF29623A8F00DA3640 /* AssignmentDueDateOverlay.swift */; };
+		477BA8C22962536700DA3640 /* AssignmentInfoPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477BA8C12962536600DA3640 /* AssignmentInfoPopup.swift */; };
 		47E30D5B29560EC800DD9E9D /* FlexiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E30D5A29560EC800DD9E9D /* FlexiApp.swift */; };
 		47E30D5D29560EC800DD9E9D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E30D5C29560EC800DD9E9D /* ContentView.swift */; };
 		47E30D5F29560EC900DD9E9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47E30D5E29560EC900DD9E9D /* Assets.xcassets */; };
@@ -50,6 +52,8 @@
 		4763A454295B83C900311B9E /* ExamsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamsView.swift; sourceTree = "<group>"; };
 		4763A456295B87E200311B9E /* ClassView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassView1.swift; sourceTree = "<group>"; };
 		4763A458295B8B2700311B9E /* ClassesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassesView.swift; sourceTree = "<group>"; };
+		477BA8BF29623A8F00DA3640 /* AssignmentDueDateOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentDueDateOverlay.swift; sourceTree = "<group>"; };
+		477BA8C12962536600DA3640 /* AssignmentInfoPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentInfoPopup.swift; sourceTree = "<group>"; };
 		47E30D5729560EC800DD9E9D /* Flexi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flexi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47E30D5A29560EC800DD9E9D /* FlexiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexiApp.swift; sourceTree = "<group>"; };
 		47E30D5C29560EC800DD9E9D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -128,6 +132,8 @@
 				4763A458295B8B2700311B9E /* ClassesView.swift */,
 				4702F96F295B5E5900140D51 /* SettingsView.swift */,
 				4763A452295B837200311B9E /* AssignmentsView.swift */,
+				477BA8BF29623A8F00DA3640 /* AssignmentDueDateOverlay.swift */,
+				477BA8C12962536600DA3640 /* AssignmentInfoPopup.swift */,
 				4763A454295B83C900311B9E /* ExamsView.swift */,
 				47E30D5E29560EC900DD9E9D /* Assets.xcassets */,
 				47E30D6329560EC900DD9E9D /* Persistence.swift */,
@@ -300,7 +306,9 @@
 				47E30D6429560EC900DD9E9D /* Persistence.swift in Sources */,
 				47E30D5D29560EC800DD9E9D /* ContentView.swift in Sources */,
 				4763A44C295B6EDA00311B9E /* ExamDashView.swift in Sources */,
+				477BA8C029623A8F00DA3640 /* AssignmentDueDateOverlay.swift in Sources */,
 				47E30D6729560EC900DD9E9D /* Flexi.xcdatamodeld in Sources */,
+				477BA8C22962536700DA3640 /* AssignmentInfoPopup.swift in Sources */,
 				47E30D5B29560EC800DD9E9D /* FlexiApp.swift in Sources */,
 				4763A453295B837200311B9E /* AssignmentsView.swift in Sources */,
 			);

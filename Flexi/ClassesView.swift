@@ -9,12 +9,10 @@ import SwiftUI
 
 struct ClassesView: View {
     var body: some View {
-        NavigationStack {
             Text("Coming Soon!")
+            .navigationTitle("Classes")
         }
-        .navigationTitle("Classes")
     }
-}
 
 struct ClassesView_Previews: PreviewProvider {
     static var previews: some View {

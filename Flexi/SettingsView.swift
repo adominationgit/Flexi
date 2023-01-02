@@ -9,18 +9,22 @@ import SwiftUI
 import CoreData
 
 struct SettingsView: View {
+    @Binding var showSheetView: Bool
+    
     var body: some View {
-        NavigationStack {
-            Text("Coming Soon!")
+        NavigationView {
+            Text("Settings Coming Soon!")
+                .navigationTitle("Settings")
+                .toolbar {
+                    ToolbarItem(placement: .navigationBarTrailing) {
+                        Button(action: {
+                            self.showSheetView = false
+                        }) {
+                            Text("Done").bold()
+                        }
+                    }
+                }
         }
-        .navigationTitle("Settings")
-        .navigationBarTitleDisplayMode(/*@START_MENU_TOKEN@*/.large/*@END_MENU_TOKEN@*/)
-        
-    }
-}
-
-struct SettingsView_Previews: PreviewProvider {
-    static var previews: some View {
-        SettingsView()
+        .navigationBarTitleDisplayMode(/*@START_MENU_TOKEN@*/.inline/*@END_MENU_TOKEN@*/)
     }
 }
