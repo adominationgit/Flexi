@@ -57,7 +57,7 @@ struct AssignmentsView: View {
                         }
                     }
                         .overlay(AssignmentDueDateOverlay()
-                            .frame(width: 404.0, alignment: .trailing))
+                            .frame(width: 395.0,height: 100.0, alignment: .trailing))
                 }
                     .padding(.horizontal)
                 

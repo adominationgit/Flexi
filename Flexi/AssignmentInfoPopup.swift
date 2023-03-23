@@ -9,7 +9,7 @@ import SwiftUI
 
 struct AssignmentInfoPopup: View {
     var body: some View {
-            Text("Assignment Info Coming Soon!")
+            Text("")
     }
 }
 
